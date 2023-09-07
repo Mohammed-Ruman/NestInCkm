@@ -8,7 +8,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg sticky-top" style={{ backgroundColor: "#edb97e54", padding: "0" }}>
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/" style={{ margin: "0", padding: "0" }}>
-            <img src={logoimg} alt="Logo" width="100%" height="65px" className="d-inline-block align-text-top" style={{ mixBlendMode: "multiply", marginLeft: "8%" }} />
+            <img src={logoimg} alt="Logo" width="100%" height="65px" className="d-inline-block align-text-top" style={{ mixBlendMode: "multiply", marginLeft: "8%" ,pointerEvents:"none"}} />
           </NavLink>
 
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

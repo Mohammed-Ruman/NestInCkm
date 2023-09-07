@@ -1,11 +1,13 @@
 import React from 'react'
+import Carousel from './Carousel'
 
 function Home() {
   return (
-    <div>This is home page
-
-      <p>lorem10000</p>
-    </div>
+    
+    <>
+    <Carousel /> 
+     
+    </>
    
   )
 }
