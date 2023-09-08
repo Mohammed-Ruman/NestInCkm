@@ -60,60 +60,16 @@ function Navbar() {
                   Home
                 </NavLink>
               </li>
-              <li
-                className="nav-item dropdown"
-                style={{ marginInlineEnd: "10%" }}
-              >
+              <li className="nav-item" style={{ marginInlineEnd: "10%" }}>
                 <NavLink
-                  className="nav-link dropdown-toggle"
+                  className="nav-link"
                   activeClassName="active"
                   to="/service"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
                 >
                   Services
                 </NavLink>
-                <ul className="dropdown-menu">
-                  <li>
-                    <NavLink
-                      className="dropdown-item"
-                      to="/services/budget-homestays"
-                    >
-                      Budget Homestays
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      className="dropdown-item"
-                      to="/services/premium-homestays"
-                    >
-                      Premium Homestays
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink className="dropdown-item" to="/services/resorts">
-                      Resorts
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      className="dropdown-item"
-                      to="/services/vehicle-rental"
-                    >
-                      Vehicle Rental
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      className="dropdown-item"
-                      to="/services/jeep-safari"
-                    >
-                      Jeep Safari
-                    </NavLink>
-                  </li>
-                </ul>
               </li>
+              
               <li className="nav-item" style={{ marginInlineEnd: "10%" }}>
                 <NavLink
                   className="nav-link"
