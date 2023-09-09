@@ -12,6 +12,7 @@ import PremiumHS from './components/PremiumHS'
 import BudgetHS from './components/BudgetHS'
 import Resort from './components/Resort'
 import Vehicle from './components/Vehicle'
+import Propertypage from './components/Propertypage';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
           <Route path='/budgeths' element={<BudgetHS />}></Route>
           <Route path='/resort' element={<Resort />}></Route>
           <Route path='/vehicle' element={<Vehicle />}></Route>
+          <Route path="/property/:propertyId" element={<Propertypage />}></Route>
         </Routes>
       <Footer />
     </BrowserRouter>

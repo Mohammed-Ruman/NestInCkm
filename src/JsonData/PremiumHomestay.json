@@ -1,0 +1,101 @@
+[
+  {
+    "propertyId": 1,
+    "Location": "123 Main Street, City A",
+    "Price": 250000,
+    "coverImageUrl": "https://placehold.co/600x400",
+    "imageUrls": [
+      "https://example.com/property1-image1.jpg",
+      "https://example.com/property1-image2.jpg",
+      "https://example.com/property1-image3.jpg"
+    ]
+  },
+  {
+    "propertyId": 2,
+    "Location": "456 Elm Street, City B",
+    "Price": 300000,
+    "coverImageUrl": "https://placehold.co/600x400",
+    "imageUrls": [
+      "https://example.com/property2-image1.jpg",
+      "https://example.com/property2-image2.jpg"
+    ]
+  },
+  {
+    "propertyId": 3,
+    "Location": "789 Oak Street, City C",
+    "Price": 200000,
+    "coverImageUrl": "https://placehold.co/600x400",
+    "imageUrls": [
+      "https://example.com/property3-image1.jpg",
+      "https://example.com/property3-image2.jpg",
+      "https://example.com/property3-image3.jpg"
+    ]
+  },
+  {
+    "propertyId": 4,
+    "Location": "101 Pine Street, City D",
+    "Price": 400000,
+    "coverImageUrl": "https://placehold.co/600x400",
+    "imageUrls": [
+      "https://example.com/property4-image1.jpg",
+      "https://example.com/property4-image2.jpg"
+    ]
+  },
+  {
+    "propertyId": 5,
+    "Location": "202 Cedar Street, City E",
+    "Price": 275000,
+    "coverImageUrl": "https://placehold.co/600x400",
+    "imageUrls": ["https://example.com/property5-image1.jpg"]
+  },
+  {
+    "propertyId": 6,
+    "Location": "303 Maple Street, City F",
+    "Price": 350000,
+    "coverImageUrl": "https://placehold.co/600x400",
+    "imageUrls": [
+      "https://example.com/property6-image1.jpg",
+      "https://example.com/property6-image2.jpg",
+      "https://example.com/property6-image3.jpg"
+    ]
+  },
+  {
+    "propertyId": 7,
+    "Location": "404 Birch Street, City G",
+    "Price": 280000,
+    "coverImageUrl": "https://placehold.co/600x400",
+    "imageUrls": [
+      "https://example.com/property7-image1.jpg",
+      "https://example.com/property7-image2.jpg"
+    ]
+  },
+  {
+    "propertyId": 8,
+    "Location": "505 Redwood Street, City H",
+    "Price": 320000,
+    "coverImageUrl": "https://placehold.co/600x400",
+    "imageUrls": [
+      "https://example.com/property8-image1.jpg",
+      "https://example.com/property8-image2.jpg",
+      "https://example.com/property8-image3.jpg"
+    ]
+  },
+  {
+    "propertyId": 9,
+    "Location": "606 Spruce Street, City I",
+    "Price": 230000,
+    "coverImageUrl": "https://placehold.co/600x400",
+    "imageUrls": ["https://example.com/property9-image1.jpg"]
+  },
+  {
+    "propertyId": 10,
+    "Location": "707 Sequoia Street, City J",
+    "Price": 290000,
+    "coverImageUrl": "https://placehold.co/600x400",
+    "imageUrls": [
+      "https://example.com/property10-image1.jpg",
+      "https://example.com/property10-image2.jpg",
+      "https://example.com/property10-image3.jpg"
+    ]
+  }
+]
