@@ -1,101 +1,333 @@
 [
   {
-    "propertyId": 1,
-    "Location": "123 Main Street, City A",
-    "Price": 250000,
-    "coverImageUrl": "https://placehold.co/600x400",
-    "imageUrls": [
-      "https://example.com/property1-image1.jpg",
-      "https://example.com/property1-image2.jpg",
-      "https://example.com/property1-image3.jpg"
-    ]
+    "propertyId": "PHS11",
+    "Location": "42 Shanti Niketan, New Delhi",
+    "Price": 4500000,
+    "coverImageUrl": "https://placehold.co/1200x800",
+    "galleryImageUrls": [
+      "https://placehold.co/400x400",
+      "https://placehold.co/400x400",
+      "https://placehold.co/400x400",
+      "https://placehold.co/400x400"
+    ],
+    "rooms": [
+      {
+        "roomName": "Living Room",
+        "description": "Elegant living room with traditional Indian decor.",
+        "roomImageUrls": [
+          "https://placehold.co/300x200",
+          "https://placehold.co/300x200"
+        ]
+      },
+      {
+        "roomName": "Bedroom",
+        "description": "Spacious bedroom with a view of the garden.",
+        "roomImageUrls": [
+          "https://placehold.co/300x200",
+          "https://placehold.co/300x200"
+        ]
+      }
+    ],
+    "specialFeatures": {
+      "feature1": "Garden",
+      "feature2": "Security System"
+    },
+    "packageDetails": "Luxury Package"
   },
   {
-    "propertyId": 2,
-    "Location": "456 Elm Street, City B",
-    "Price": 300000,
+    "propertyId": "PHS12",
+    "Location": "28 MG Road, Bangalore",
+    "Price": 3500000,
     "coverImageUrl": "https://placehold.co/600x400",
-    "imageUrls": [
-      "https://example.com/property2-image1.jpg",
-      "https://example.com/property2-image2.jpg"
-    ]
+    "galleryImageUrls": [
+      "https://example.com/property12-image1.jpg",
+      "https://example.com/property12-image2.jpg",
+      "https://example.com/property12-image3.jpg"
+    ],
+    "rooms": [
+      {
+        "roomName": "Living Room",
+        "description": "Modern living room with open floor plan.",
+        "roomImageUrls": [
+          "https://example.com/property12-living-room1.jpg",
+          "https://example.com/property12-living-room2.jpg"
+        ]
+      },
+      {
+        "roomName": "Kitchen",
+        "description": "Fully equipped kitchen with granite countertops.",
+        "roomImageUrls": [
+          "https://example.com/property12-kitchen1.jpg",
+          "https://example.com/property12-kitchen2.jpg"
+        ]
+      }
+    ],
+    "specialFeatures": {
+      "feature1": "Swimming Pool",
+      "feature2": "Gym",
+      "feature3": "Parking"
+    },
+    "packageDetails": "Deluxe Package"
   },
   {
-    "propertyId": 3,
-    "Location": "789 Oak Street, City C",
-    "Price": 200000,
+    "propertyId": "PHS13",
+    "Location": "15 Park Street, Kolkata",
+    "Price": 2800000,
     "coverImageUrl": "https://placehold.co/600x400",
-    "imageUrls": [
-      "https://example.com/property3-image1.jpg",
-      "https://example.com/property3-image2.jpg",
-      "https://example.com/property3-image3.jpg"
-    ]
+    "galleryImageUrls": [
+      "https://example.com/property13-image1.jpg",
+      "https://example.com/property13-image2.jpg"
+    ],
+    "rooms": [
+      {
+        "roomName": "Living Room",
+        "description": "Classic living room with vintage furnishings.",
+        "roomImageUrls": [
+          "https://example.com/property13-living-room1.jpg",
+          "https://example.com/property13-living-room2.jpg"
+        ]
+      },
+      {
+        "roomName": "Bedroom",
+        "description": "Cozy bedroom with hardwood floors.",
+        "roomImageUrls": [
+          "https://example.com/property13-bedroom1.jpg",
+          "https://example.com/property13-bedroom2.jpg"
+        ]
+      }
+    ],
+    "specialFeatures": {
+      "feature1": "Balcony",
+      "feature2": "Library"
+    },
+    "packageDetails": "Premium Package"
   },
   {
-    "propertyId": 4,
-    "Location": "101 Pine Street, City D",
-    "Price": 400000,
+    "propertyId": "PHS14",
+    "Location": "7 Residency Road, Chennai",
+    "Price": 3200000,
     "coverImageUrl": "https://placehold.co/600x400",
-    "imageUrls": [
-      "https://example.com/property4-image1.jpg",
-      "https://example.com/property4-image2.jpg"
-    ]
+    "galleryImageUrls": [
+      "https://example.com/property14-image1.jpg",
+      "https://example.com/property14-image2.jpg",
+      "https://example.com/property14-image3.jpg"
+    ],
+    "rooms": [
+      {
+        "roomName": "Living Room",
+        "description": "Contemporary living room with large windows.",
+        "roomImageUrls": [
+          "https://example.com/property14-living-room1.jpg",
+          "https://example.com/property14-living-room2.jpg"
+        ]
+      },
+      {
+        "roomName": "Kitchen",
+        "description": "Sleek kitchen with modern appliances.",
+        "roomImageUrls": [
+          "https://example.com/property14-kitchen1.jpg",
+          "https://example.com/property14-kitchen2.jpg"
+        ]
+      }
+    ],
+    "specialFeatures": {
+      "feature1": "Roof Garden",
+      "feature2": "Security System"
+    },
+    "packageDetails": "Luxury Package"
   },
   {
-    "propertyId": 5,
-    "Location": "202 Cedar Street, City E",
-    "Price": 275000,
+    "propertyId": "PHS15",
+    "Location": "54 Rajpur Road, Dehradun",
+    "Price": 1800000,
     "coverImageUrl": "https://placehold.co/600x400",
-    "imageUrls": ["https://example.com/property5-image1.jpg"]
+    "galleryImageUrls": [
+      "https://example.com/property15-image1.jpg"
+    ],
+    "rooms": [
+      {
+        "roomName": "Living Room",
+        "description": "Bright living room with wooden flooring.",
+        "roomImageUrls": [
+          "https://example.com/property15-living-room1.jpg"
+        ]
+      },
+      {
+        "roomName": "Bedroom",
+        "description": "Compact bedroom with a scenic view.",
+        "roomImageUrls": [
+          "https://example.com/property15-bedroom1.jpg"
+        ]
+      }
+    ],
+    "specialFeatures": {
+      "feature1": "Mountain View",
+      "feature2": "Gym"
+    },
+    "packageDetails": "Standard Package"
   },
   {
-    "propertyId": 6,
-    "Location": "303 Maple Street, City F",
-    "Price": 350000,
+    "propertyId": "PHS16",
+    "Location": "101 MG Road, Mumbai",
+    "Price": 5500000,
     "coverImageUrl": "https://placehold.co/600x400",
-    "imageUrls": [
-      "https://example.com/property6-image1.jpg",
-      "https://example.com/property6-image2.jpg",
-      "https://example.com/property6-image3.jpg"
-    ]
+    "galleryImageUrls": [
+      "https://example.com/property16-image1.jpg",
+      "https://example.com/property16-image2.jpg"
+    ],
+    "rooms": [
+      {
+        "roomName": "Living Room",
+        "description": "Spacious living room with panoramic city views.",
+        "roomImageUrls": [
+          "https://example.com/property16-living-room1.jpg",
+          "https://example.com/property16-living-room2.jpg"
+        ]
+      },
+      {
+        "roomName": "Kitchen",
+        "description": "Chef's kitchen with top-of-the-line appliances.",
+        "roomImageUrls": [
+          "https://example.com/property16-kitchen1.jpg",
+          "https://example.com/property16-kitchen2.jpg"
+        ]
+      }
+    ],
+    "specialFeatures": {
+      "feature1": "Infinity Pool",
+      "feature2": "Theater Room"
+    },
+    "packageDetails": "Luxury Package"
   },
   {
-    "propertyId": 7,
-    "Location": "404 Birch Street, City G",
-    "Price": 280000,
+    "propertyId": "PHS17",
+    "Location": "22 Church Street, Bangalore",
+    "Price": 3200000,
     "coverImageUrl": "https://placehold.co/600x400",
-    "imageUrls": [
-      "https://example.com/property7-image1.jpg",
-      "https://example.com/property7-image2.jpg"
-    ]
+    "galleryImageUrls": [
+      "https://example.com/property17-image1.jpg",
+      "https://example.com/property17-image2.jpg",
+      "https://example.com/property17-image3.jpg"
+    ],
+    "rooms": [
+      {
+        "roomName": "Living Room",
+        "description": "Contemporary living room with high ceilings.",
+        "roomImageUrls": [
+          "https://example.com/property17-living-room1.jpg",
+          "https://example.com/property17-living-room2.jpg"
+        ]
+      },
+      {
+        "roomName": "Bedroom",
+        "description": "Master bedroom with an en-suite bathroom.",
+        "roomImageUrls": [
+          "https://example.com/property17-bedroom1.jpg",
+          "https://example.com/property17-bedroom2.jpg"
+        ]
+      }
+    ],
+    "specialFeatures": {
+      "feature1": "Rooftop Terrace",
+      "feature2": "Gym"
+    },
+    "packageDetails": "Deluxe Package"
   },
   {
-    "propertyId": 8,
-    "Location": "505 Redwood Street, City H",
-    "Price": 320000,
+    "propertyId": "PHS18",
+    "Location": "39 Park Lane, Mumbai",
+    "Price": 4800000,
     "coverImageUrl": "https://placehold.co/600x400",
-    "imageUrls": [
-      "https://example.com/property8-image1.jpg",
-      "https://example.com/property8-image2.jpg",
-      "https://example.com/property8-image3.jpg"
-    ]
+    "galleryImageUrls": [
+      "https://example.com/property18-image1.jpg",
+      "https://example.com/property18-image2.jpg",
+      "https://example.com/property18-image3.jpg"
+    ],
+    "rooms": [
+      {
+        "roomName": "Living Room",
+        "description": "Spacious living room with marble floors.",
+        "roomImageUrls": [
+          "https://example.com/property18-living-room1.jpg",
+          "https://example.com/property18-living-room2.jpg"
+        ]
+      },
+      {
+        "roomName": "Kitchen",
+        "description": "Open-concept kitchen with a breakfast bar.",
+        "roomImageUrls": [
+          "https://example.com/property18-kitchen1.jpg",
+          "https://example.com/property18-kitchen2.jpg"
+        ]
+      }
+    ],
+    "specialFeatures": {
+      "feature1": "Private Pool",
+      "feature2": "Library"
+    },
+    "packageDetails": "Luxury Package"
   },
   {
-    "propertyId": 9,
-    "Location": "606 Spruce Street, City I",
-    "Price": 230000,
+    "propertyId": "PHS19",
+    "Location": "10 Beach Road, Goa",
+    "Price": 3900000,
     "coverImageUrl": "https://placehold.co/600x400",
-    "imageUrls": ["https://example.com/property9-image1.jpg"]
+    "galleryImageUrls": [
+      "https://example.com/property19-image1.jpg",
+      "https://example.com/property19-image2.jpg"
+    ],
+    "rooms": [
+      {
+        "roomName": "Living Room",
+        "description": "Beachfront living room with breathtaking views.",
+        "roomImageUrls": [
+          "https://example.com/property19-living-room1.jpg",
+          "https://example.com/property19-living-room2.jpg"
+        ]
+      },
+      {
+        "roomName": "Bedroom",
+        "description": "Master suite with a private balcony.",
+        "roomImageUrls": [
+          "https://example.com/property19-bedroom1.jpg",
+          "https://example.com/property19-bedroom2.jpg"
+        ]
+      }
+    ],
+    "specialFeatures": {
+      "feature1": "Private Beach Access",
+      "feature2": "Spa"
+    },
+    "packageDetails": "Luxury Package"
   },
   {
-    "propertyId": 10,
-    "Location": "707 Sequoia Street, City J",
-    "Price": 290000,
+    "propertyId": "PHS20",
+    "Location": "8 Hill View Road, Shimla",
+    "Price": 2200000,
     "coverImageUrl": "https://placehold.co/600x400",
-    "imageUrls": [
-      "https://example.com/property10-image1.jpg",
-      "https://example.com/property10-image2.jpg",
-      "https://example.com/property10-image3.jpg"
-    ]
+    "galleryImageUrls": [
+      "https://example.com/property20-image1.jpg"
+    ],
+    "rooms": [
+      {
+        "roomName": "Living Room",
+        "description": "Cozy living room with a fireplace.",
+        "roomImageUrls": [
+          "https://example.com/property20-living-room1.jpg"
+        ]
+      },
+      {
+        "roomName": "Bedroom",
+        "description": "Mountain-view bedroom with wooden beams.",
+        "roomImageUrls": [
+          "https://example.com/property20-bedroom1.jpg"
+        ]
+      }
+    ],
+    "specialFeatures": {
+      "feature1": "Mountain View",
+      "feature2": "Fireplace"
+    },
+    "packageDetails": "Standard Package"
   }
 ]
