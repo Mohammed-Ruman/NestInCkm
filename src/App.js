@@ -33,7 +33,7 @@ function App() {
           <Route path='/budgeths' element={<BudgetHS />}></Route>
           <Route path='/resort' element={<Resort />}></Route>
           <Route path='/vehicle' element={<Vehicle />}></Route>
-          <Route path="/property/:propertyId" element={<Propertypage />}></Route>
+          <Route path="/premiumhs/property/:propertyId" element={<Propertypage />}></Route>
         </Routes>
       <Footer />
     </BrowserRouter>
