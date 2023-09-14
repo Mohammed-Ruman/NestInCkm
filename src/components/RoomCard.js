@@ -3,7 +3,7 @@ import React from 'react'
 function RoomCard({roomInfo}) {
   
   const id = `roomCarousel-${roomInfo.roomName.replace(/\s/g, '')}`;
-  console.log(`#${id}`);
+  
     return (
     <>
     <div className="card">
