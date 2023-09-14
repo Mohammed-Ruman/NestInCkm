@@ -7,6 +7,9 @@ function Propertypage() {
   const { propertyId } = useParams();
   const [propertyDetails, setPropertyDetails] = useState(null);
 
+  let wappLink="https://api.whatsapp.com/send?phone=918147845702&text=Hello%2C%20I%27d%20like%20to%20check%20Homestay%20availability.%20Can%20you%20provide%20details%3F%0AHomestay%20Id%20%3A%20"+propertyId;
+ 
+
  
 
   useEffect(() => {
@@ -16,7 +19,7 @@ function Propertypage() {
     if (foundProperty) {
       // If property is found, set it in the state
       setPropertyDetails(foundProperty);
-      console.log(foundProperty);
+      
     } else {
       // Handle the case when property is not found
       // You can set an error message or redirect to a 404 page
@@ -50,7 +53,7 @@ function Propertypage() {
 
         </div>
         <div className="col-md-4">
-          <Link to='https://www.google.com' className='btn btn-primary'>Book</Link>
+          <Link  to={wappLink} className='btn' style={{backgroundColor:"rgb(153 106 37 / 52%)"}} target="_blank" rel="noopener noreferrer">Check Availability</Link>
         </div>
       </div>
 
