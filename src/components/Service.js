@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+
 import phs1 from '../Assets/PHS/1.jpg'
 import phs2 from '../Assets/PHS/2.jpg'
 import phs3 from '../Assets/PHS/3.jpg'
@@ -17,12 +20,16 @@ import rc2 from '../Assets/rentcar/2.jpg'
 import rc3 from '../Assets/rentcar/3.jpg'
 
 function Service() {
-  return (
-    
+  
+  useEffect(()=>{
+    Aos.init({duration: 2000});
+  },[])
+  
+  return ( 
     <>
 
 {/* Premium Homestay */}
-<div className="container-fluid my-5 mx-0" >
+<div className="container-fluid my-5 mx-0" data-aos="fade-left" >
   <div className="card d-flex flex-lg-row flex-column">
   <div id="carouselExample1" className="carousel slide col-lg-4 col-12" data-bs-ride="carousel" style={{ maxWidth: '800px', maxHeight: '600px', margin: '0 auto' }}>
       <div className="carousel-inner">
@@ -59,7 +66,7 @@ function Service() {
 
 
 {/* Budget Homestay */}
-<div className="container-fluid my-5 mx-0">
+<div className="container-fluid my-5 mx-0" data-aos="fade-right">
   <div className="card d-flex flex-lg-row flex-column-reverse flex-column">
     <div className="col-lg-8 col-12 card-body d-flex flex-column justify-content-center" style={{ backgroundColor: "#edb97e54" }}>
       <div className="text-center">
@@ -95,7 +102,7 @@ function Service() {
 
 
 {/* Resorts */}
-<div className="container-fluid my-5 mx-0" >
+<div className="container-fluid my-5 mx-0" data-aos="fade-left">
   <div className="card d-flex flex-lg-row flex-column">
   <div id="carouselExample3" className="carousel slide col-lg-4 col-12" data-bs-ride="carousel" style={{ maxWidth: '800px', maxHeight: '600px', margin: '0 auto' }}>
       <div className="carousel-inner">
@@ -132,7 +139,7 @@ function Service() {
 
 
 {/* Vehicle Rentals */}
-<div className="container-fluid my-5 mx-0">
+<div className="container-fluid my-5 mx-0" data-aos="fade-right">
   <div className="card d-flex flex-lg-row flex-column-reverse flex-column">
     <div className="col-lg-8 col-12 card-body d-flex flex-column justify-content-center" style={{ backgroundColor: "#edb97e54" }}>
       <div className="text-center">
