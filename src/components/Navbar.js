@@ -7,7 +7,7 @@ function Navbar() {
     <div>
       <nav
         className="navbar navbar-expand-lg sticky-top"
-        style={{ backgroundColor: "#edb97e54", padding: "0" }}
+        style={{ backgroundColor: "rgb(153 106 37 / 52%)" , padding: "0" }}
       >
         <div className="container-fluid">
           <NavLink

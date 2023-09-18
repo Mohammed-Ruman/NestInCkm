@@ -15,6 +15,7 @@ function Home() {
 
 
   useEffect(() => {
+    document.title='Home'
     Aos.init({duration:2000})
     // Function to update line height based on screen width
     const updateLineHeight = () => {
@@ -58,7 +59,7 @@ function Home() {
               <div className="d-flex align-items-center justify-content-center">
                 <p className={topMargin} style={{fontSize:"18px",lineHeight:`${lineHeight}`}}>
                   <hr />
-                      <Typewriter options={{autoStart:true,loop:true,delay:50,strings: ["Welcome to Nest in Chickmagaluru,"]}}  />
+                      <Typewriter options={{autoStart:true,loop:true,delay:50,strings: ["Welcome to <strong>Nest in Chickmagaluru,</strong>"]}}  />
                        your gateway to an enchanting travel experience nestled in the heart of nature's paradise. We invite you to embark on a journey like no other, where the lush greenery of Chickmagaluru meets the warmth of our hospitality. Whether you seek the comfort of a premium homestay, the affordability of budget accommodations, the luxury of resorts, or the freedom to explore with our rental vehicles, we have tailored our services to make your stay unforgettable. With us, you're not just a traveler; you're a cherished guest. Our mission is to provide you with more than just a place to rest; it's an opportunity to create cherished memories. So, come, be part of our story, and let us be part of yours. Discover Chickmagaluru with Nest, where every stay is a journey and every guest is family.
                   <hr />
                 </p>
@@ -90,7 +91,7 @@ function Home() {
       <div className="container-fluid" style={{ backgroundColor: "rgb(153 106 37 / 52%)" }}>
         <div className="container text-center">
             <div className="row">
-              <h1 className='mt-5 fw-bold'>OUR OFFERINGS</h1>
+              <h1 className='text-uppercase mt-5 fw-bold'>OUR OFFERINGS</h1>
             </div>
             <div className="row mt-3 ">
               <div className="col-md mb-3 " data-aos="flip-left">
@@ -147,7 +148,7 @@ function Home() {
           <div className="container text-center ">
             <div className="row p-4">
               <div className="col-md">
-                  <div className="container shadow mt-3" style={{border:"4px solid rgb(153 106 37 / 52%)",borderRadius:"15px", width:"45vmin", borderBottom:"10px solid rgb(153 106 37 / 52%)"}} data-aos="zoom-in">
+                  <div className="container shadow mt-3" style={{border:"4px solid rgb(153 106 37 / 52%)",borderRadius:"15px", borderBottom:"10px solid rgb(153 106 37 / 52%)"}} data-aos="zoom-in">
                       <h4 className='mt-3'>Over</h4>
                       <h2>
                         {counterOn && <CountUp start={0} end={55} delay={0.5} duration={4} />}
@@ -156,14 +157,14 @@ function Home() {
                   </div>
               </div>
               <div className="col-md">
-                  <div className="container shadow mt-3" style={{border:"4px solid rgb(153 106 37 / 52%)",borderRadius:"15px", width:"45vmin", borderBottom:"10px solid rgb(153 106 37 / 52%)"}} data-aos="zoom-in">
+                  <div className="container shadow mt-3" style={{border:"4px solid rgb(153 106 37 / 52%)",borderRadius:"15px", borderBottom:"10px solid rgb(153 106 37 / 52%)"}} data-aos="zoom-in">
                       <h4 className='mt-3'>Over</h4>
                       <h2>{counterOn && <CountUp start={0} end={65} delay={0.5} duration={4} />}</h2>
                       <h4>Bookings Done</h4>
                   </div>
               </div>
               <div className="col-md">
-                  <div className="container shadow mt-3" style={{border:"4px solid rgb(153 106 37 / 52%)",borderRadius:"15px", width:"45vmin", borderBottom:"10px solid rgb(153 106 37 / 52%)"}} data-aos="zoom-in">
+                  <div className="container shadow mt-3" style={{border:"4px solid rgb(153 106 37 / 52%)",borderRadius:"15px", borderBottom:"10px solid rgb(153 106 37 / 52%)"}} data-aos="zoom-in">
                       <h4 className='mt-3'>Over</h4>
                       <h2>{counterOn && <CountUp start={0} end={75} delay={0.5} duration={4} />}</h2>
                       <h4>Happy Customers</h4>

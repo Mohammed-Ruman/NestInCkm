@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -44,11 +45,10 @@ function Footer() {
                 <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 {/* <!-- Content --> */}
                 <h6 className="text-uppercase fw-bold mb-4">
-                    <i className="fas fa-gem me-3"></i>Company name
+                    <i className="fas fa-gem me-3"></i>Nest In Chikmagaluru
                 </h6>
                 <p>
-                    Here you can use rows and columns to organize your footer content. Lorem ipsum
-                    dolor sit amet, consectetur adipisicing elit.
+                    Book your next stay with us.
                 </p>
                 </div>
                 {/* <!-- Grid column --> */}
@@ -57,19 +57,19 @@ function Footer() {
                 <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 {/* <!-- Links --> */}
                 <h6 className="text-uppercase fw-bold mb-4">
-                    Products
+                    Service
                 </h6>
                 <p>
-                    <a href="#!" className="text-reset">Angular</a>
+                    <Link to="/premiumhs" className="text-reset">Premium Homestay</Link>
                 </p>
                 <p>
-                    <a href="#!" className="text-reset">React</a>
+                    <Link to="/budgeths" className="text-reset">Budget Homestay</Link>
                 </p>
                 <p>
-                    <a href="#!" className="text-reset">Vue</a>
+                    <Link to="/resort" className="text-reset">Resort</Link>
                 </p>
                 <p>
-                    <a href="#!" className="text-reset">Laravel</a>
+                    <Link to="/vehicle" className="text-reset">Rental Vehicle</Link>
                 </p>
                 </div>
                 {/* <!-- Grid column --> */}
@@ -81,16 +81,16 @@ function Footer() {
                     Useful links
                 </h6>
                 <p>
-                    <a href="#!" className="text-reset">Pricing</a>
+                    <Link to="/" className="text-reset">Home</Link>
                 </p>
                 <p>
-                    <a href="#!" className="text-reset">Settings</a>
+                    <Link to="/service" className="text-reset">Service</Link>
                 </p>
                 <p>
-                    <a href="#!" className="text-reset">Orders</a>
+                    <Link to="/about" className="text-reset">About</Link>
                 </p>
                 <p>
-                    <a href="#!" className="text-reset">Help</a>
+                    <Link to="/blog" className="text-reset">Blog</Link>
                 </p>
                 </div>
                 {/* <!-- Grid column --> */}
@@ -99,13 +99,13 @@ function Footer() {
                 <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 {/* <!-- Links --> */}
                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-                <p><i className="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                <p><i className="fas fa-home me-3"></i> uphalli,Chikmagaluru - 577101</p>
                 <p>
                     <i className="fas fa-envelope me-3"></i>
-                    info@example.com
+                    nestinckm@gmail.com
                 </p>
-                <p><i className="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                <p><i className="fas fa-print me-3"></i> + 01 234 567 89</p>
+                <p><i className="fas fa-phone me-3"></i> + 91 9988776655</p>
+                <p><i className="fas fa-print me-3"></i> + 91 8899776655</p>
                 </div>
                 {/* <!-- Grid column --> */}
             </div>

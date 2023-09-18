@@ -22,6 +22,7 @@ import rc3 from '../Assets/rentcar/3.jpg'
 function Service() {
   
   useEffect(()=>{
+    document.title='Service'
     Aos.init({duration: 2000});
   },[])
   
