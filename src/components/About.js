@@ -37,11 +37,11 @@ function About() {
   return (
     <>
       <div className="container-fluid " style={{ backgroundColor: "#edb97e54" }} >
-        <div className="container text-center" data-aos="fade-left">
+        <div className="container text-center" data-aos="fade-right">
           <div className="row">
             <div className="col-md-6 order-md-2 d-flex align-items-center justify-content-center">
-              <div className="image-container shadow d-none mt-5 mb-5 d-md-block"> {/* Hide on small screens */}
-                <img src="https://placehold.co/500x500" alt="" />
+              <div className="image-container shadow  mt-5  d-md-block"> {/* Hide on small screens */}
+                <img src="https://placehold.co/500x500" alt="" className='img-fluid'/>
               </div>
             </div>
             <div className="col-md-6 order-md-1">
@@ -56,7 +56,43 @@ function About() {
             </div>
           </div>
         </div>
-      </div>  
+        <br />
+        <br />
+      </div> 
+
+      <div className="container-fluid" style={{ backgroundColor: "#edb97e54" }}>
+      <div className="container text-center" data-aos="fade-left">
+        <div className="row">
+          <div className="col-md-6 d-flex align-items-center justify-content-center">
+            <div className="image-container shadow mt-5  d-md-block"> {/* Hide on small screens */}
+              <img src="https://placehold.co/500x500" alt="" className='img-fluid'/>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="d-flex align-items-center justify-content-center">
+              <p className={topMargin} style={{ fontSize: "18px", lineHeight: `${lineHeight}` }}>
+                <hr />
+                <Typewriter
+                  options={{
+                    autoStart: true,
+                    loop: true,
+                    delay: 50,
+                    strings: [
+                      "Welcome to <strong>Nest in Chickmagaluru,</strong>",
+                       ]
+                  }}
+                  
+                  />
+                  your gateway to an enchanting travel experience nestled in the heart of nature's paradise. We invite you to embark on a journey like no other, where the lush greenery of Chickmagaluru meets the warmth of our hospitality. Whether you seek the comfort of a premium homestay, the affordability of budget accommodations, the luxury of resorts, or the freedom to explore with our rental vehicles, we have tailored our services to make your stay unforgettable. With us, you're not just a traveler; you're a cherished guest. Our mission is to provide you with more than just a place to rest; it's an opportunity to create cherished memories. So, come, be part of our story, and let us be part of yours. Discover Chickmagaluru with Nest, where every stay is a journey and every guest is family.
+                <hr />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+    </div>
     </>
   )
 }
