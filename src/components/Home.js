@@ -91,7 +91,7 @@ function Home() {
       <div className="container-fluid" style={{ backgroundColor: "rgb(153 106 37 / 52%)" }}>
         <div className="container text-center">
             <div className="row">
-              <h1 className='text-uppercase mt-5 fw-bold'>OUR OFFERINGS</h1>
+              <h1 className='text-uppercase mt-5 fw-bold' style={{color:"white"}}>OUR OFFERINGS</h1>
             </div>
             <div className="row mt-3 ">
               <div className="col-md mb-3 " data-aos="flip-left">
