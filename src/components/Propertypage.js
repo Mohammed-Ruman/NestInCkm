@@ -13,6 +13,7 @@ function Propertypage() {
  
 
   useEffect(() => {
+   
     // Find the property details based on propertyId
     const foundProperty = propertyJson?.find(property => property.propertyId === propertyId);
 
@@ -33,14 +34,14 @@ function Propertypage() {
   }
 
   return (
-    <div className="container text-center">
+    <div className="container text-center" >
     <img
       className="img-fluid mx-auto mt-3"
       src={propertyDetails.coverImageUrl}
       alt="Cover"
       style={{ maxWidth: '100%', height: 'auto' }}
     />
-    <div className="container mt-3 mb-3">
+    <div className="container mt-3 mb-3" >
       <h4 className='text-center'>Homestay : {propertyDetails.propertyId}</h4>
       <div className="row">
         <div className="col-md-8">
