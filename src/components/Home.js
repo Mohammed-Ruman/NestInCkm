@@ -6,6 +6,8 @@ import ScrollTrigger from 'react-scroll-trigger';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import Typewriter from 'typewriter-effect'
+import Slider from './Slider';
+
 
 function Home() {
 
@@ -45,7 +47,11 @@ function Home() {
 
   return (
     <>
-      <Carousel/>
+      <div className="container-fluid" style={{position:'relative',height:'800px'}}>
+        <Slider />
+      </div>
+
+      <div className="container-fluid" >
 
       <div className="container-fluid " style={{ backgroundColor: "#edb97e54" }} >
         <div className="container text-center" data-aos="fade-left">
@@ -174,7 +180,8 @@ function Home() {
             <br />
           </div>
       </div>
-      </ScrollTrigger>            
+      </ScrollTrigger>  
+      </div>          
                  
 
 

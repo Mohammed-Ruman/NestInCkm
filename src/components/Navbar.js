@@ -1,13 +1,56 @@
-import React from "react";
+import React, { useEffect,useState } from "react";
 import logoimg from "../Assets/3.2.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
+
+
 
 function Navbar() {
+
+  const location=useLocation();
+  const [isHomePage, setisHomePage] = useState(false)
+  const [isMobileScreen, setisMobileScreen] = useState(false)
+ 
+  
+  
+  useEffect(() => {
+    if(location.pathname==="/"){
+    setisHomePage(true);
+  }else{
+    setisHomePage(false);
+  }
+  const updateLineHeight = () => {
+    if (window.innerWidth <= 767) {
+      setisMobileScreen(true)
+    } else {
+      setisMobileScreen(false)
+    }
+  };
+
+  // Add event listener to update line height on window resize
+  window.addEventListener('resize', updateLineHeight);
+
+  // Initial call to set line height based on screen width
+  updateLineHeight();
+
+  // Clean up the event listener on component unmount
+  return () => {
+    window.removeEventListener('resize', updateLineHeight);
+  };
+   
+
+  }, [location])
+  
+
+  
+  
   return (
     <div>
       <nav
         className="navbar navbar-expand-lg sticky-top"
-        style={{ backgroundColor: "rgb(153 106 37 / 52%)" , padding: "0" }}
+        style={{
+          backgroundColor:isHomePage&&!isMobileScreen?"":"rgb(153 106 37 / 52%)",
+          padding:"0"
+        }}
       >
         <div className="container-fluid">
           <NavLink
@@ -37,8 +80,9 @@ function Navbar() {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon" ></span>
           </button>
 
           <div
