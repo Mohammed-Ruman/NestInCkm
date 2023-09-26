@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Carousel from './Carousel';
 import { Link } from 'react-router-dom';
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
@@ -9,11 +8,13 @@ import Typewriter from 'typewriter-effect'
 import Slider from './Slider';
 
 
+
 function Home() {
 
   const [lineHeight, setLineHeight] = useState('2'); // Default line height
   const [topMargin,setTopMargin]=useState('mt-5')
   const [counterOn,setCounterOn]=useState(false)
+
 
 
   useEffect(() => {
@@ -29,6 +30,7 @@ function Home() {
         setTopMargin('mt-5')
       }
     };
+
 
     // Add event listener to update line height on window resize
     window.addEventListener('resize', updateLineHeight);
@@ -47,7 +49,7 @@ function Home() {
 
   return (
     <>
-      <div className="container-fluid" style={{position:'relative',height:'800px'}}>
+      <div className="container-fluid" style={{position:'relative',height:'800px'}} data-aos="fade-right"> 
         <Slider />
       </div>
 
@@ -157,7 +159,7 @@ function Home() {
                   <div className="container shadow mt-3" style={{border:"4px solid rgb(153 106 37 / 52%)",borderRadius:"15px", borderBottom:"10px solid rgb(153 106 37 / 52%)"}} data-aos="zoom-in">
                       <h4 className='mt-3'>Over</h4>
                       <h2>
-                        {counterOn && <CountUp start={0} end={55} delay={0.5} duration={4} />}
+                        {counterOn && <CountUp start={0} end={55} delay={0.5} duration={4} />}+
                       </h2>
                       <h4>Properties Available</h4>
                   </div>
@@ -165,14 +167,14 @@ function Home() {
               <div className="col-md">
                   <div className="container shadow mt-3" style={{border:"4px solid rgb(153 106 37 / 52%)",borderRadius:"15px", borderBottom:"10px solid rgb(153 106 37 / 52%)"}} data-aos="zoom-in">
                       <h4 className='mt-3'>Over</h4>
-                      <h2>{counterOn && <CountUp start={0} end={65} delay={0.5} duration={4} />}</h2>
+                      <h2>{counterOn && <CountUp start={0} end={65} delay={0.5} duration={4} />}+</h2>
                       <h4>Bookings Done</h4>
                   </div>
               </div>
               <div className="col-md">
                   <div className="container shadow mt-3" style={{border:"4px solid rgb(153 106 37 / 52%)",borderRadius:"15px", borderBottom:"10px solid rgb(153 106 37 / 52%)"}} data-aos="zoom-in">
                       <h4 className='mt-3'>Over</h4>
-                      <h2>{counterOn && <CountUp start={0} end={75} delay={0.5} duration={4} />}</h2>
+                      <h2>{counterOn && <CountUp start={0} end={75} delay={0.5} duration={4} />}+</h2>
                       <h4>Happy Customers</h4>
                   </div>
               </div>

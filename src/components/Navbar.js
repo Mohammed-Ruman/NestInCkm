@@ -1,4 +1,5 @@
 import React, { useEffect,useState } from "react";
+import logoimgTrans from "../Assets/3.3.png";
 import logoimg from "../Assets/3.2.png";
 import { NavLink, useLocation } from "react-router-dom";
 
@@ -59,7 +60,7 @@ function Navbar() {
             style={{ margin: "0", padding: "0" }}
           >
             <img
-              src={logoimg}
+               src={isHomePage && !isMobileScreen ? logoimg : logoimgTrans}
               alt="Logo"
               width="100%"
               height="65px"

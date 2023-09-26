@@ -6,6 +6,7 @@ import PropertyCard from './PropertyCard';
 function PremiumHS() {
 
   useEffect(() => {
+    window.scrollTo(0,0);
     document.title="Premium Homestay-NIC"  
   }, [])
   
