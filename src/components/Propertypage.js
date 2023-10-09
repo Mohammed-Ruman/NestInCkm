@@ -39,7 +39,8 @@ function Propertypage() {
       className="img-fluid mx-auto mt-3"
       src={propertyDetails.coverImageUrl}
       alt="Cover"
-      style={{ maxWidth: '100%', height: 'auto' }}
+      style={{ maxWidth: '1200px', maxHeight: '700px',width:"100%",objectFit:"cover",objectPosition:"center" }}
+      loading='lazy'
     />
     <div className="container mt-3 mb-3" >
       <h4 className='text-center'>Homestay : {propertyDetails.propertyId}</h4>
@@ -91,6 +92,8 @@ function Propertypage() {
                 src={imageUrl}
                 alt=""
                 className="img-fluid"
+                style={{ maxWidth: "600px", width:"100%",height:"100%",maxHeight: "400px",objectFit:"cover",cursor: "pointer"}}
+                loading='lazy'
               />
               {/* You can add additional content or captions here */}
             </div>
