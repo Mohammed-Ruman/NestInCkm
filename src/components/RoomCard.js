@@ -32,7 +32,9 @@ function RoomCard({roomInfo}) {
               <img
                 src={image}
                 alt=''
-                className="d-block w-100"
+                className=" w-100"
+                style={{ maxWidth: "600px", maxHeight: "400px",objectFit:"cover",cursor: "pointer"}}
+                loading='lazy'
               />
             </div>
           ))}

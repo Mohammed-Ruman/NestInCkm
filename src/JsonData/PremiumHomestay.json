@@ -1,30 +1,40 @@
 [
   {
-    "propertyId": "PHS11",
-    "Location": "42 Shanti Niketan, New Delhi",
-    "Price": 4500000,
-    "coverImageUrl": "https://placehold.co/1200x800",
+    "propertyId": "PHS01",
+    "Location": "Mallenahalli, Chikmagaluru",
+    "Price": 1000,
+    "coverImageUrl": "https://drive.google.com/uc?export=view&id=1esz_rl1nTEcEItPj0w_I8XQ7nF8C28Uq",
     "galleryImageUrls": [
-      "https://placehold.co/400x400",
-      "https://placehold.co/400x400",
-      "https://placehold.co/400x400",
-      "https://placehold.co/400x400"
+      "https://drive.google.com/uc?export=view&id=1RA9ajxPCFwweMlLokOyAauc7bFzwjolE",
+      "https://drive.google.com/uc?export=view&id=11e3dgCuuhPf5KMaQSnKoHdpsNhFkATd5",
+      "https://drive.google.com/uc?export=view&id=1cwpZhO3w2VpsB6dfV7IqB2e6HlmumK1U",
+      "https://drive.google.com/uc?export=view&id=1j6SmCsDPD0ZvNeJrX47-DM5fY-IzpRwv",
+      "https://drive.google.com/uc?export=view&id=1j067tVw4XLve7d-i95ARsNgEuzd-HN3P",
+      "https://drive.google.com/uc?export=view&id=11AkUW5PS_XyYciXts5KBnyr64xuTLLis"
+      
     ],
     "rooms": [
       {
-        "roomName": "Living Room",
-        "description": "Elegant living room with traditional Indian decor.",
+        "roomName": "Room-1",
+        "description": "Elegant  room with traditional Indian decor.",
         "roomImageUrls": [
-          "https://placehold.co/300x200",
-          "https://placehold.co/300x200"
+          "https://drive.google.com/uc?export=view&id=1iBngffSp4K7Tg4pqh_5Kh9zdK-nwc4yt",
+          "https://drive.google.com/uc?export=view&id=14YVNWa1oUxqoWkCUMruWUTxT1i0NwEXg",
+          "https://drive.google.com/uc?export=view&id=1MT4JE4QIPfzQAS4HpsrE3KbpuWO7Phi7",
+          "https://drive.google.com/uc?export=view&id=18uubnotOVoQ-n8t_-dhtH3mwcJsWvM4o"
         ]
       },
       {
-        "roomName": "Bedroom",
+        "roomName": "Wooden Hut",
         "description": "Spacious bedroom with a view of the garden.",
         "roomImageUrls": [
-          "https://placehold.co/300x200",
-          "https://placehold.co/300x200"
+          "https://drive.google.com/uc?export=view&id=1aM0tjNnos7UwWXsDPIk7FdK6nNY237HN",
+          "https://drive.google.com/uc?export=view&id=1roVQ-tnjIB_FdKJeGA8V6XWi1m0CU6ZP",
+          "https://drive.google.com/uc?export=view&id=1CAIRUebaBRobJe6r-vndqXo7x3GYxUYo",
+          "https://drive.google.com/uc?export=view&id=1U8xK9WXKUzFegU8wKpU5Y9MvFH4GdohX",
+          "https://drive.google.com/uc?export=view&id=1Z5He__33R3d1TolvvNjOIzpQPQirtzxR",
+          "https://drive.google.com/uc?export=view&id=1gPAokevvNuEAhV6J-TC5RuWVrY2IoVMF"
+          
         ]
       }
     ],
